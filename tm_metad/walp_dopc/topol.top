@@ -1,0 +1,20 @@
+#include "toppar/martini_v3.0.0.itp"
+#include "toppar/martini_v3.0.0_phospholipids_v1.itp"
+#include "toppar/martini_v3.0.0_solvents_v1.itp"
+#include "toppar/martini_v3.0.0_ions_v1.itp"
+#include "toppar/PROA_M.itp"
+#include "toppar/PROB_M.itp"
+
+[ system ]
+; name
+Protein in INSANE! Membrane UpperLeaflet>DOPC=1 LowerLeaflet>DOPC=1
+
+[ molecules ]
+; name  number
+PROA_P         1
+PROB_P         1
+DOPC           202
+DOPC           204
+W             4534
+NA              50
+CL              50
